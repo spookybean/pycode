@@ -8,3 +8,4 @@
 
 * named tuples
 * counter
+* default dict
