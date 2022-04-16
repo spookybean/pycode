@@ -7,3 +7,4 @@
 ## collections library
 
 * named tuples
+* counter
