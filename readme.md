@@ -15,3 +15,8 @@
 ## pydantic
 
 * data validation
+
+## marshmallow
+
+* data validation
+* serialise and deserialise

@@ -5,6 +5,7 @@ name = "pypi"
 
 [packages]
 pydantic = "==1.9.0"
+marshmallow = "==3.15.0"
 
 [dev-packages]
 
