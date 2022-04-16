@@ -1,5 +1,14 @@
 # python code
 
+## create .env
+
+* REDIS_URL
+* BUCKET
+* ACCESS_KEY
+* SECRET_KEY
+* MINIO_URL
+* SECURE
+
 ## function annotations
 
 ## little endian
