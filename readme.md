@@ -3,3 +3,7 @@
 ## function annotations
 
 ## little endian
+
+## collections library
+
+* named tuples
