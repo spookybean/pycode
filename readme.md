@@ -11,3 +11,7 @@
 * default dict
 
 ## enums
+
+## pydantic
+
+* data validation
