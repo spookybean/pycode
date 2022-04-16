@@ -22,3 +22,5 @@
 * serialise and deserialise
 
 ## dataclasses
+
+## hashlib
