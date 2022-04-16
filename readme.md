@@ -9,3 +9,5 @@
 * named tuples
 * counter
 * default dict
+
+## enums
