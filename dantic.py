@@ -7,7 +7,8 @@ from pydantic import (
     PositiveInt,
     NegativeInt,
     conlist,
-    constr
+    constr,
+    validator
     )
 
 
@@ -33,6 +34,13 @@ class User(BaseModel):
     strip_str: Optional[constr(min_length=4, max_length=8, strip_whitespace=True)]
 
 
+    @validator('confirm_password')
+    def passwords_match(cls, v, values, **kwargs):
+        if 'password' in values and v != values['password']:
+            raise ValueError('passwords do not match')
+        return v
+
+
 data = {
     'id': '1',
     'username': ' waia',
@@ -50,6 +58,6 @@ data = {
 try:
     user = User(**data)
 except ValidationError as e:
-    print(e.json)
+    print(e)
 else:
     print(user)
