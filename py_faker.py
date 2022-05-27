@@ -4,6 +4,9 @@ from pprint import pp
 
 fake = Faker('it_IT')
 
+''' to generate same data'''
+Faker.seed(3452)
+
 pp({
     'name': fake.name(),
     'address': fake.address(),
