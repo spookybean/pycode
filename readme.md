@@ -8,6 +8,10 @@
 * SECRET_KEY
 * MINIO_URL
 * SECURE
+* SECRET
+* ALGORITHM
+* TOKEN_EXPIRY
+* MONGODB_URI
 
 ## function annotations
 
@@ -37,3 +41,5 @@
 ## icecream
 
 ## celery tasks
+
+## motor async pymongo
