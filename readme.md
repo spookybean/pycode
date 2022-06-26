@@ -52,3 +52,4 @@
 * map with arguments
 * sha256 hashing
 * str to hex
+* argparse
