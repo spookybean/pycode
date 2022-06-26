@@ -43,3 +43,12 @@
 ## celery tasks
 
 ## motor async pymongo
+
+## inbuilts
+
+* enums
+* generators
+* little endian
+* map with arguments
+* sha256 hashing
+* str to hex
